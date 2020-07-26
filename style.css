@@ -1,0 +1,60 @@
+.main{
+    text-align: center;
+    border: black 4px solid;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    background-color: chartreuse;
+}
+
+#item{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+
+
+}
+
+button{
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+    border: black 1px solid;
+    background-color: violet;
+}
+
+@media only screen and (max-width: 792px) {
+    .main {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .main {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .main {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 508px) {
+    .main {
+        width: 90%;
+    }
+}
+
+

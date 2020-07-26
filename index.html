@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo app</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="main">
+            <div>
+                <input placeholder="Enter New Todo" id="item" type="text">
+            </div>
+            <div>
+                <button onclick="addclick()">Add Todo</button>
+                <button onclick="deleteall()">Delete All Todo</button>
+            </div>
+            <div>
+                <ol id="ul">
+                 </ol>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
